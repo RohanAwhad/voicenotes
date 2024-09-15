@@ -1,3 +1,10 @@
+'''
+In you .bashrc or .zshrc file add the following line to run it from anywhere in terminal
+
+alias rv="DYLD_LIBRARY_PATH=/opt/homebrew/Cellar/portaudio/19.7.0/lib/ /Users/rohan/miniconda3/envs/whisper-transcription-env/bin/python /Users/rohan/0_Inbox/test_llm_engineer/workspaces/voicenotes/main.py"
+
+'''
+
 import whisper
 import pyperclip
 import pyaudio
